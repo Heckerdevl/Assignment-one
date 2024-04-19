@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* Navigation bar */
+
+.pic img{
+    width: 150px;
+    max-width:100%;
+    margin-right: 650px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+ul li{
+    margin:25px 60px;
+}
+a{
+    text-decoration:none;   
+    color: black;
+    font-weight: bold;
+
+}
+a:hover{
+    color: orange;
+}
+header{
+    height: 80px;
+}
+ul i{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: -2px;
+    /* margin-left: 1000px; */
+}
+
+/* Middle Section */
+section{
+    /* border: 2px solid black; */
+    height: 145vh;
+    color: white;
+    font-weight: bold;
+}
+.container h3{
+    text-align: center;
+    margin-top: 60px;
+}
+.container h1{
+    margin-left: 450px;
+    margin-top: 23px;
+    font-size:55px;
+    font-weight: bold;
+    width: 730px;
+    
+}
+#para-two{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 18px
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+}
+#btn1{
+    font-size: 17px;
+    border: none;
+    border: 2px solid orangered;
+    background-color: orangered;
+    color: white;
+    /* padding: 15px; */
+    border-radius: 28px;
+    width: 160px;
+    height: 50px;
+    margin:10px;   
+}
+#btn2{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    /* padding: 15px; */
+    font-size: 16px;
+    border-radius: 28px;
+    width: 160px;
+    height: 50px;
+    margin:10px;   
+}
+section::before{
+    content:"";
+    content: "";
+    background: url("background1.png") no-repeat center center/cover;
+    position: absolute;
+    height: 70vh;
+    width: 100vw;
+    z-index: -1;
+}
+.section-pic img{
+    margin-left: 450px;
+    margin-top: -110px;
+    width: 550px;
+}
+hr{
+    width: 60vw;
+    display: block;
+    margin: auto;
+}
+/* Blocks */
+.block{
+    height: 290vh;
+    overflow-y: hidden;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.block-info{
+    display: flex;
+    /* height: 95vh; */
+}
+.img img{
+    width: 530px;
+    margin-left: 200px;
+    /* margin-right: 100px; */
+    margin-top: -50px;
+}
+.img1 img{
+    width: 530px;
+    margin-left: 100px;
+    /* margin-right: -100px; */
+    margin-top: -50px;
+}
+.about{
+    margin-top: 200px;
+}
+
+#h3{
+    color: orangered;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.about h1{
+    font-size: 40px;
+    width: 550px;
+    margin-bottom: 20px;
+}
+.about-info{
+    font-size: 20px;
+    width: 330px;
+    color: grey;
+    margin-bottom: 20px;
+}
+.about1{
+    margin-top: 200px;
+    /* overflow-y: hidden; */
+    margin-left: 300px;
+}
+
+#h31{
+    color: orangered;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.about1 h1{
+    font-size: 40px;
+    width: 550px;
+    margin-bottom: 20px;
+}
+.about-info1{
+    font-size: 20px;
+    width: 330px;
+    color: grey;
+    margin-bottom: 20px;
+}
+.bottom::before{
+    content:"";
+    background: url("background2.1.png") no-repeat center center/cover;
+    position: absolute;
+    height: 70vh;
+    width: 100vw;
+    z-index: -1;
+}
+.end-info{
+    margin-top: 100px;
+}
+#para-1{
+    text-align: center;
+}
+#para-2{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+    margin-left: 105px;
+}
+#btn3{
+    font-size: 17px;
+    border: none;
+    border: 2px solid orangered;
+    background-color: orangered;
+    color: white;
+    /* padding: 15px; */
+    border-radius: 28px;
+    width: 160px;
+    height: 50px;
+    margin:10px;   
+}
+#btn4{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    /* padding: 15px; */
+    font-size: 16px;
+    border-radius: 28px;
+    width: 160px;
+    height: 50px;
+    margin:10px;   
+}
+.bottom{
+    height: 75vh;
+}
+.footer{
+    display: flex;
+    height: 15vh;
+
+}
+.logo img{
+    width: 200px;
+    margin-top: -20px;
+    margin-right: 500px;
+}
+.icon{
+    margin-right: 35px;
+    margin-top: 8px;
+}
+.copyright{
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+@media (max-width:1470px){
+
+    /* Navigation bar */
+    .pic img {
+        width: 150px;
+        max-width: 100%; 
+        margin-right: 10%; 
+    }
+    ul li{
+        display: none;
+    }
+    .fa{
+        display: block;
+        margin-left:78%;
+
+    }
+    header {
+        height: 80px;
+    }
+    
+    /* Middle Section */
+    section {
+        height: auto; 
+        color: white;
+        font-weight: bold;
+    }
+    .container h1 {
+        margin-left: 10%;
+        margin-top: 20px; 
+        font-size: 40px; 
+        width: 80%
+    }
+    #para-two {
+        text-align: center;
+        margin-top: 20px; 
+        font-size: 16px;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; 
+    }
+    #btn1, #btn2 {
+        width: 140px; 
+        height: 40px; 
+        margin: 10px;
+        font-size: 14px; 
+    }
+    .section-pic img {
+        margin-left: 10%; 
+        margin-top: -50px; 
+        width: 80%;
+    }
+    
+    /* Blocks */
+    .block {
+        height: auto; 
+        overflow-y: hidden;
+    }
+    .heading {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 20px; 
+    }
+    .block-info {
+        flex-direction: column;
+    }
+    .img img {
+        width: 80%;
+        margin: 20px auto; 
+    }
+    .about1 {
+        margin-left: 10%; 
+    }
+    .about h1, .about1 h1 {
+        font-size: 30px;
+        width: 80%; 
+        margin-bottom: 10px; 
+    }
+    .about-info, .about-info1 {
+        font-size: 16px; 
+        width: 80%; 
+        margin-bottom: 10px; 
+    }
+    .bottom::before {
+        height: 50vh; 
+    }
+    .end-info {
+        margin-top: 50px; 
+    }
+    .button2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; 
+    }
+    #btn3, #btn4 {
+        width: 140px;
+        height: 40px;
+        margin: 10px;
+        font-size: 14px;
+    }
+    .bottom {
+        height: auto; 
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 10px; 
+    }
+    .logo img {
+        width: 150px; 
+        margin-right: 20px;
+    }
+    .icon {
+        margin-right: 10px;
+    }
+    .copyright {
+        margin-left: 20px;
+    }
+    
+}
